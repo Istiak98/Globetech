@@ -1,0 +1,149 @@
+.row.content {
+  height:1200px;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 40px;
+  background-color: #010737;
+  height: 150%;
+}
+.welcome{
+     font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.15em;
+
+color: #0096C7;
+
+}
+.make{
+     font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.15em;
+
+color: #FFFFFF;
+
+}
+.rightnav{
+     background-color:  #C0CDD3;;
+}
+.login-page {
+  width: 478px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 478px;
+  max-height: 407px;
+  margin: 0 auto 100px;
+  left: 60px;
+  top:120px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Montserrat", sans-serif;
+  outline: 0;
+  background:transparent;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 1px solid;
+}
+.form button {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #2397CD;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #2397CD;
+}
+
+/* .container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+} */
+.welcome2{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+letter-spacing: -0.05em;
+
+color: #212121;
+}
+.signIn{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #928B8B;
+
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {
+    height: auto;
+  }
+}
