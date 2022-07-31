@@ -16,6 +16,8 @@ This project is currently in development. Users can just saw some Interfaces and
  
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
+Example: https://github.com/Istiak98/Globetech.git
+
 Installation:
 
 `npm install`  
