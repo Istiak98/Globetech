@@ -3,6 +3,7 @@
 # Globe Tech 
 
 An application for software company.
+Live Site: https://globe-tech-istiak1998.netlify.app/
 
 ## Project Status
 In Development
